@@ -13,7 +13,7 @@ import {
 import { GetOrderById, GetOrderByIdApi } from "../../services/order"; // Assuming you have this function
 
 const OrderDetail = () => {
-  const { orderId } = useParams(); // To get the order ID from the URL
+  const { orderId } = useParams();
   const [order, setOrder] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
