@@ -1,0 +1,31 @@
+/* TopNavbar.css */
+/* TopNavbar.css */
+.top-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1e2a3a; /* Same color as sidebar */
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; /* Make sure the navbar stays on top */
+  border-bottom: 1px solid #f9f7f4; /* Optional: Add a border to the bottom for a cleaner separation */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.navbar-icon:hover {
+  color: #f39c12; /* Highlight icons on hover */
+}
